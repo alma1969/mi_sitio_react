@@ -1,0 +1,22 @@
+/* src/components/Filters.module.css */
+ .filterContainer {
+   display: flex;
+   gap: 1rem;
+   margin: 1.5rem 0;
+   justify-content: center;
+ }
+ .filterButton {
+   padding: 0.6rem 1.2rem;
+   background-color: #e0e0e0;
+   border: none;
+   border-radius: 8px;
+   cursor: pointer;
+   font-weight: 600;
+   transition: background-color 0.3s ease;
+ }
+ .filterButton:hover {
+   background-color: #d0d0d0;
+ }
+ .filterButton:active {
+   background-color: #b0b0b0;
+ }
